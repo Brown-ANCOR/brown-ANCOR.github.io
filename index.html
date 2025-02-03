@@ -1,21 +1,403 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Embedded PDF</title>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="ANCOR: AI, Neuro, CogSci Research Talks. Organized at the Department of Computer Science, Carney Center for Computational Brain Science (CCBS), and Department of Cognitive and Psychological Sciences at Brown University.">
+  <meta name="keywords" content="ANCOR, AI, Neuroscience, Cognitive Science, research, seminar">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANCOR: AI, Neuro, CogSci Research Talks</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+
+
 </head>
 
 <body>
-    <div class="row-container">
-    <div class="first-row">
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-    <iframe src="index.pdf" class="second-row">
-        This browser does not support PDFs. Please download the PDF to view it: <a href="index.pdf">Download PDF</a>.
-    </iframe>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://brown-ancor.github.io">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <!-- <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://hypernerf.github.io">
+              HyperNeRF
+            </a>
+            <a class="navbar-item" href="https://nerfies.github.io">
+              Nerfies
+            </a>
+            <a class="navbar-item" href="https://latentfusion.github.io">
+              LatentFusion
+            </a>
+            <a class="navbar-item" href="https://photoshape.github.io">
+              PhotoShape
+            </a>
+          </div>
+        </div> -->
+      </div>
+
     </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">⚓ ANCOR: AI<sub>🤖</sub> Neuro<sub>🧠</sub>
+              CogSci<sub>⚙</sub> Research talks</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>🤖</sup><a href="https://cs.brown.edu/events/">Department of Computer Science</a>
+                &nbsp;&nbsp;
+              </span>
+              <span class="author-block">
+                <sup>🧠</sup><a href="https://ccbs.carney.brown.edu/events">Carney Center for Computational Brain
+                  Science (CCBS)
+                </a>
+                &nbsp;&nbsp;
+              </span>
+              <span class="author-block">
+                <sup>⚙</sup><a href="https://copsy.brown.edu/events">Department of Cognitive and Psychological
+                  Sciences
+                </a>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup></sup><span style="color: brown;">Brown University</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="column has-text-centered">
+          <div class="publication-links">
+            <!-- Mailing list Link. -->
+            <span class="link-block">
+              <a href="" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-mail"></i>
+                </span>
+                <span>Sign up for the mailing list! (coming soon)</span>
+              </a>
+            </span>
+            <!-- Calendar Link. -->
+            <span class="link-block">
+              <a href="" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-google"></i>
+                </span>
+                <span>Google calendar (coming soon)</span>
+              </a>
+            </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h2 class="subtitle">
+          <b>Mondays at 11am</b>
+          <br>Organized across locations at Brown University
+          home to the AI, Neuro, and Cog research communities (check each event for location; click below for map
+          links):
+          <br>
+          
+          - <a href="https://maps.app.goo.gl/f9uriuEiVXWUgWZJ7" target="_blank">CIT 477 (Lubrano), 115 Waterman st</a>,<br>
+          
+          - <a href="https://maps.app.goo.gl/WPWpT8BrocitU7HbA" target="_blank">Carney Institute Innovation Zone, 164 Angell st. 4th ﬂoor</a>,<br>
+          
+          - <a href="https://maps.app.goo.gl/e8SXR7ZWUXBTAfPT6" target="_blank">Metcalf Research Building (room tbd)</a>
+          
+          <br>
+          <!-- ANCOR talks are also Carney Center for Computational Brain Science (CCBS) events. -->
+        </h2>
+        <h3>Organized by <br>
+          
+          <b>Mikey Lepori</b> (michael_lepori [at] brown [dot] edu)  &nbsp;&&nbsp; 
+          
+          <b>Aalok Sathe</b> (aalok [at] brown [dot] edu) 
+          
+        </h3>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="content">
+            <h2 class="title is-4">Event schedule</h2>
+            <div class="columns is-multiline">
+              <div class="column is-12">
+
+                
+
+
+                <div class="card" style="background-color:blanchedalmond">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Dynamics of Concept Learning and Emergent Abilities in Neural Networks</p>
+                      </div>
+                      <div>&nbsp;</div>
+                      <div>
+                        <p class="subtitle is-5"><b>Speaker:</b>
+                           <b>Ekdeep Lubana</b>
+                          
+                          (Postdoc, Harvard Kempner Institute)
+                        </p>
+                        <!-- <p class="subtitle is-6">TBA</p> -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p><b>Date:</b> February 10, 2025 (Monday) at 11am</p>
+                      <p><b>Location:</b> CIT 477, Lubrano</p>
+                      
+                      <div class="content">
+                        <div class="abstract-content" style="display: none;">
+                          <p>None</p>
+                        </div>
+                        <p><b>Abstract:</b>
+                          <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                            <span class="icon">
+                              <i class="fas fa-chevron-down"></i>
+                            </span>
+                          </a>
+                        </p>
+                        <div class="abstract-content" style="display: none;">
+                          <p>None</p>
+                        </div>
+
+                        <script>
+                          function toggleAbstract(link) {
+                            const abstractContent = link.parentElement.nextElementSibling;
+                            const icon = link.querySelector('.icon i');
+                            if (abstractContent.style.display === "none") {
+                              abstractContent.style.display = "block";
+                              icon.classList.remove('fa-chevron-down');
+                              icon.classList.add('fa-chevron-up');
+                            } else {
+                              abstractContent.style.display = "none";
+                              icon.classList.remove('fa-chevron-up');
+                              icon.classList.add('fa-chevron-down');
+                            }
+                          }
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Finish event card -->
+                <div style="margin-bottom: 20px;"></div>
+                
+
+
+                <div class="card" style="background-color:blanchedalmond">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Recurrent cortical networks encode natural sensory statistics via sequence ﬁltering</p>
+                      </div>
+                      <div>&nbsp;</div>
+                      <div>
+                        <p class="subtitle is-5"><b>Speaker:</b>
+                           <b>Ciana Deveau</b>
+                          
+                          (PhD student, Brown Neuroscience/NIH)
+                        </p>
+                        <!-- <p class="subtitle is-6">TBA</p> -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p><b>Date:</b> January 27, 2025 (Monday) at 11am</p>
+                      <p><b>Location:</b> CIT 477, Lubrano</p>
+                      
+                      <div class="content">
+                        <div class="abstract-content" style="display: none;">
+                          <p>None</p>
+                        </div>
+                        <p><b>Abstract:</b>
+                          <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                            <span class="icon">
+                              <i class="fas fa-chevron-down"></i>
+                            </span>
+                          </a>
+                        </p>
+                        <div class="abstract-content" style="display: none;">
+                          <p>None</p>
+                        </div>
+
+                        <script>
+                          function toggleAbstract(link) {
+                            const abstractContent = link.parentElement.nextElementSibling;
+                            const icon = link.querySelector('.icon i');
+                            if (abstractContent.style.display === "none") {
+                              abstractContent.style.display = "block";
+                              icon.classList.remove('fa-chevron-down');
+                              icon.classList.add('fa-chevron-up');
+                            } else {
+                              abstractContent.style.display = "none";
+                              icon.classList.remove('fa-chevron-up');
+                              icon.classList.add('fa-chevron-down');
+                            }
+                          }
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Finish event card -->
+                <div style="margin-bottom: 20px;"></div>
+                
+
+
+                <div class="card" style="background-color:blanchedalmond">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">Large language models implicitly learn to straighten neural sentence trajectories to construct a predictive representation of natural language</p>
+                      </div>
+                      <div>&nbsp;</div>
+                      <div>
+                        <p class="subtitle is-5"><b>Speaker:</b>
+                           <b>Eghbal Hosseini</b>
+                          
+                          (Postdoc, MIT Brain+Cognitive Sciences)
+                        </p>
+                        <!-- <p class="subtitle is-6">TBA</p> -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p><b>Date:</b> December 02, 2024 (Monday) at 11am</p>
+                      <p><b>Location:</b> Carney Institute Innovation Zone (4th floor)</p>
+                      
+                      <div class="content">
+                        <div class="abstract-content" style="display: none;">
+                          <p>None</p>
+                        </div>
+                        <p><b>Abstract:</b>
+                          <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                            <span class="icon">
+                              <i class="fas fa-chevron-down"></i>
+                            </span>
+                          </a>
+                        </p>
+                        <div class="abstract-content" style="display: none;">
+                          <p>None</p>
+                        </div>
+
+                        <script>
+                          function toggleAbstract(link) {
+                            const abstractContent = link.parentElement.nextElementSibling;
+                            const icon = link.querySelector('.icon i');
+                            if (abstractContent.style.display === "none") {
+                              abstractContent.style.display = "block";
+                              icon.classList.remove('fa-chevron-down');
+                              icon.classList.add('fa-chevron-up');
+                            } else {
+                              abstractContent.style.display = "none";
+                              icon.classList.remove('fa-chevron-up');
+                              icon.classList.add('fa-chevron-down');
+                            }
+                          }
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Finish event card -->
+                <div style="margin-bottom: 20px;"></div>
+                
+
+              </div>
+            </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <!-- <div class="content has-text-centered">
+        <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div> -->
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+
+              This means you are free to borrow the <a
+                href="https://github.com/brown-ancor/brown-ancor.github.io/">source
+                code</a> of this website, we just ask that you link back to this page in the footer. (Originally adapted
+              from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>
