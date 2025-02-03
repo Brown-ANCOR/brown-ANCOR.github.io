@@ -1,9 +1,32 @@
+# this file houses all past and upcoming speakers and the details of their talk and affiliation
 #
-#
+# TO ADD A SPEAKER: COPY THIS BLOB AND FILL IN THE DETAILS
+################################
+# - speaker:
+#   speakerlink:
+#   title:
+#   affiliation:
+#   abstract:
+#   date: yyyy-mm-dd
+#   time: 11am
+#   location:
+#   recording:
+################################
+
+- speaker: Aditya Yedetore
+  speakerlink: https://adityayedetore.github.io/
+  title: Semantic Bootstrapping of Hierarchical Generalization in Neural Networks
+  affiliation: Boston University (PhD student)
+  abstract: "Neural networks without hierarchical biases often struggle to learn linguistic rules that come naturally to humans. However, neural networks are trained primarily on form alone, while children acquiring language additionally receive data about meaning. Would neural networks generalize more like humans when trained on both form and meaning? We investigate this by examining if Transformers—neural networks without a hierarchical bias—better achieve hierarchical generalization when trained on both form and meaning compared to when trained on form alone. Our results show that Transformers trained on form and meaning do favor the hierarchical generalization more than those trained on form alone, suggesting that statistical learners without hierarchical biases can leverage semantic training signals to bootstrap hierarchical syntactic generalization."
+  date: 2025-02-24
+  time: 11am
+  location: CIT 477, Lubrano
+  recording:
+
 - speaker: Ekdeep Lubana
-  speakerlink:
+  speakerlink: https://ekdeepslubana.github.io/
   title: Dynamics of Concept Learning and Emergent Abilities in Neural Networks
-  affiliation: Postdoc, Harvard Kempner Institute
+  affiliation: Harvard Kempner Institute (Postdoc)
   abstract:
   date: 2025-02-10
   time: 11am
@@ -11,20 +34,20 @@
   recording:
 
 - speaker: Ciana Deveau
-  speakerlink:
+  speakerlink: https://scholar.google.com/citations?user=dhVfNmAAAAAJ&hl=en
   title: Recurrent cortical networks encode natural sensory statistics via sequence ﬁltering
-  affiliation: PhD student, Brown Neuroscience/NIH
-  abstract:
+  affiliation: Brown Neuroscience/NIH (PhD student)
+  abstract: "Recurrent neural networks can generate dynamics, but in sensory cortex it has been unclear if any dynamic processing is supported by the dense recurrent excitatory-excitatory network. Here we show a new role for recurrent connections in mouse visual cortex: they support powerful dynamical computations, but by filtering sequences of input instead of generating sequences. Using two-photon optogenetics, we measure neural responses to natural images and play them back, finding inputs are amplified when played back during the correct movie dynamic context— when the preceding sequence corresponds to natural vision. This sequence selectivity depends on a network mechanism: earlier input patterns produce responses in other local neurons, which interact with later input patterns. We confirm this mechanism by designing sequences of inputs that are amplified or suppressed by the network. These data suggest recurrent cortical connections perform predictive processing, encoding the statistics of the natural world in input-output transformations."
   date: 2025-01-27
   time: 11am
   location: CIT 477, Lubrano
   recording:
 
 - speaker: Eghbal Hosseini
-  speakerlink:
+  speakerlink: https://eghbalhosseini.github.io/
   title: Large language models implicitly learn to straighten neural sentence trajectories to construct a predictive representation of natural language
-  affiliation: Postdoc, MIT Brain+Cognitive Sciences
-  abstract:
+  affiliation: MIT Brain+Cognitive Sciences (Postdoc)
+  abstract: "Predicting upcoming events is critical to our ability to effectively interact with ourenvironment and conspecifics. In natural language processing, transformer models, which are trained on next-word prediction, appear to construct a general-purposerepresentation of language that can support diverse downstream tasks. However, westill lack an understanding of how a predictive objective shapes such representations. Inspired by recent work in vision neuroscience Hénaff et al.(2019), here we test ahypothesis about predictive representations of autoregressive transformer models. In particular, we test whether the neural trajectory of a sequence of words in asentence becomes progressively more straight as it passes through the layers of thenetwork. The key insight behind this hypothesis is that straighter trajectories shouldfacilitate prediction via linear extrapolation. We quantify straightness using a 1-dimensional curvature metric, and present four findings in support of the trajectorystraightening hypothesis: i) In trained models, the curvature progressively decreasesfrom the first to the middle layers of the network. ii) Models that perform better onthe next-word prediction objective, including larger models and models trained onlarger datasets, exhibit greater decreases in curvature, suggesting that this improvedability to straighten sentence neural trajectories may be the underlying driver ofbetter language modeling performance. iii) Given the same linguistic context, thesequences that are generated by the model have lower curvature than the groundtruth (the actual continuations observed in a language corpus), suggesting thatthe model favors straighter trajectories for making predictions. iv) A consistentrelationship holds between the average curvature and the average surprisal ofsentences in the middle layers of models, such that sentences with straighter neuraltrajectories also have lower surprisal. Importantly, untrained models don’t exhibitthese behaviors. In tandem, these results support the trajectory straighteninghypothesis and provide a possible mechanism for how the geometry of the internalrepresentations of autoregressive models supports next word prediction."
   date: 2024-12-02
   time: 11am
   location: Carney Institute Innovation Zone (4th floor)

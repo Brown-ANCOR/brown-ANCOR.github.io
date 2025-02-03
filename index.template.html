@@ -93,17 +93,19 @@
               CogSci<sub>⚙</sub> Research talks</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <sup>🤖</sup><a href="https://cs.brown.edu/events/">Department of Computer Science</a>
+                <sup>🤖</sup><a href="https://cs.brown.edu/events/" target="_blank">Department of Computer Science</a>
                 &nbsp;&nbsp;
               </span>
               <span class="author-block">
-                <sup>🧠</sup><a href="https://ccbs.carney.brown.edu/events">Carney Center for Computational Brain
+                <sup>🧠</sup><a href="https://ccbs.carney.brown.edu/events" target="_blank">Carney Center for
+                  Computational Brain
                   Science (CCBS)
                 </a>
                 &nbsp;&nbsp;
               </span>
               <span class="author-block">
-                <sup>⚙</sup><a href="https://copsy.brown.edu/events">Department of Cognitive and Psychological
+                <sup>⚙</sup><a href="https://copsy.brown.edu/events" target="_blank">Department of Cognitive and
+                  Psychological
                   Sciences
                 </a>
               </span>
@@ -185,14 +187,15 @@
                     <div class="media">
                       <div class="media-content">
                         <p class="title is-4">{{event.title}}</p>
-                      </div>
+                        <!-- </div>
                       <div>&nbsp;</div>
-                      <div>
-                        <p class="subtitle is-5"><b>Speaker:</b>
-                          {%if event.speakerlink %}<a href="{{event.speakerlink}}"><b>{{event.speaker}}</b></a>
-                          {% else %} <b>{{event.speaker}}</b>
+                      <div> -->
+                        <p class=" is-5"><b>Speaker:</b>
+                          {%if event.speakerlink %}<a href="{{event.speakerlink}}"
+                            target="_blank"><b>{{event.speaker}},</b></a>
+                          {% else %} <b>{{event.speaker}},</b>
                           {% endif %}
-                          ({{event.affiliation}})
+                          {{event.affiliation}}
                         </p>
                         <!-- <p class="subtitle is-6">TBA</p> -->
                       </div>
@@ -201,7 +204,7 @@
                       <p><b>Date:</b> {{event.date.strftime("%B %d, %Y (%A)")}} at {{event.time}}</p>
                       <p><b>Location:</b> {{event.location}}</p>
                       {% if event.recording %}
-                      <p><b>Recording:</b> <a href="{{event.recording}}">Link</a></p>
+                      <p><b>Recording:</b> <a href="{{event.recording}}" target="_blank">Link</a></p>
                       {% endif %}
                       <div class="content">
                         <div class="abstract-content" style="display: none;">
@@ -260,14 +263,14 @@
         <div class="column is-8">
           <div class="content">
             <p>
-              This website is licensed under a <a rel="license"
-                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank">Creative
                 Commons Attribution-ShareAlike 4.0 International License</a>.
             </p>
             <p>
 
-              This means you are free to borrow the <a
-                href="https://github.com/brown-ancor/brown-ancor.github.io/">source
+              This means you are free to borrow the <a href="https://github.com/brown-ancor/brown-ancor.github.io/"
+                target="_blank">source
                 code</a> of this website, we just ask that you link back to this page in the footer. (Originally adapted
               from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>).
             </p>
