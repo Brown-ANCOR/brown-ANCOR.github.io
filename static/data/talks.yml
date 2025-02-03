@@ -1,0 +1,31 @@
+#
+#
+- speaker: Ekdeep Lubana
+  speakerlink:
+  title: Dynamics of Concept Learning and Emergent Abilities in Neural Networks
+  affiliation: Postdoc, Harvard Kempner Institute
+  abstract:
+  date: 2025-02-10
+  time: 11am
+  location: CIT 477, Lubrano
+  recording:
+
+- speaker: Ciana Deveau
+  speakerlink:
+  title: Recurrent cortical networks encode natural sensory statistics via sequence ﬁltering
+  affiliation: PhD student, Brown Neuroscience/NIH
+  abstract:
+  date: 2025-01-27
+  time: 11am
+  location: CIT 477, Lubrano
+  recording:
+
+- speaker: Eghbal Hosseini
+  speakerlink:
+  title: Large language models implicitly learn to straighten neural sentence trajectories to construct a predictive representation of natural language
+  affiliation: Postdoc, MIT Brain+Cognitive Sciences
+  abstract:
+  date: 2024-12-02
+  time: 11am
+  location: Carney Institute Innovation Zone (4th floor)
+  recording:
