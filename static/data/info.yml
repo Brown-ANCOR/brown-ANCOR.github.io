@@ -1,9 +1,9 @@
 locations:
-    - name: CIT 477 (Lubrano), 115 Waterman st
+    - name: CIT 477 (Lubrano), 115 Waterman st. 4th floor
       gmaps: https://maps.app.goo.gl/f9uriuEiVXWUgWZJ7
     - name: Carney Institute Innovation Zone, 164 Angell st. 4th ﬂoor
       gmaps: https://maps.app.goo.gl/WPWpT8BrocitU7HbA
-    - name: Metcalf Research Building (room tbd)
+    - name: Metcalf 305 (Dome room), 190 Thayer st. 3rd floor
       gmaps: https://maps.app.goo.gl/e8SXR7ZWUXBTAfPT6
 
 contact:
