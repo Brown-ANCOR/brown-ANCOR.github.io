@@ -193,6 +193,66 @@
                   <div class="card-content">
                     <div class="media">
                       <div class="media-content">
+                        <p class="title is-4">TBD</p>
+                        <!-- </div>
+                      <div>&nbsp;</div>
+                      <div> -->
+                        <p class=" is-5"><b>Speaker:</b>
+                          <a href="https://scholar.google.com/citations?user=56QHqZsAAAAJ&hl=en"
+                            target="_blank"><b>Samuel (Sam) Lippl,</b></a>
+                          
+                          Columbia University (PhD Student)
+                        </p>
+                        <!-- <p class="subtitle is-6">TBA</p> -->
+                      </div>
+                    </div>
+                    <div class="content">
+                      <p><b>Date:</b> March 19, 2025 (Wednesday) at 11am</p>
+                      <p><b>Location:</b> Metcalf 305 (Dome room)</p>
+                      
+                      <div class="content">
+                        <div class="abstract-content" style="display: none;">
+                          <p>TBD</p>
+                        </div>
+                        <p><b>Abstract:</b>
+                          <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                            <span class="icon">
+                              <i class="fas fa-chevron-down"></i>
+                            </span>
+                          </a>
+                        </p>
+                        <div class="abstract-content" style="display: none;">
+                          <p>TBD</p>
+                        </div>
+
+                        <script>
+                          function toggleAbstract(link) {
+                            const abstractContent = link.parentElement.nextElementSibling;
+                            const icon = link.querySelector('.icon i');
+                            if (abstractContent.style.display === "none") {
+                              abstractContent.style.display = "block";
+                              icon.classList.remove('fa-chevron-down');
+                              icon.classList.add('fa-chevron-up');
+                            } else {
+                              abstractContent.style.display = "none";
+                              icon.classList.remove('fa-chevron-up');
+                              icon.classList.add('fa-chevron-down');
+                            }
+                          }
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Finish event card -->
+                <div style="margin-bottom: 20px;"></div>
+                
+
+
+                <div class="card" style="background-color:blanchedalmond">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
                         <p class="title is-4">Classical computation in connectionist models</p>
                         <!-- </div>
                       <div>&nbsp;</div>

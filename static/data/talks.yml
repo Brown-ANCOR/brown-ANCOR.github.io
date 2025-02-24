@@ -35,15 +35,15 @@
 #   recording:
 
 
-# - speaker: Samuel Lippl
-#   speakerlink: https://scholar.google.com/citations?user=56QHqZsAAAAJ&hl=en
-#   title: TBD
-#   affiliation: Columbia University (PhD Student)
-#   abstract: TBD
-#   date: 2025-03-19
-#   time: 11am
-#   location: Metcalf 305 (Dome room) 
-#   recording:
+- speaker: Samuel (Sam) Lippl
+  speakerlink: https://scholar.google.com/citations?user=56QHqZsAAAAJ&hl=en
+  title: TBD
+  affiliation: Columbia University (PhD Student)
+  abstract: TBD
+  date: 2025-03-19
+  time: 11am
+  location: Metcalf 305 (Dome room) 
+  recording:
 
 - speaker: Aditya Yedetore
   speakerlink: https://adityayedetore.github.io/
