@@ -205,7 +205,7 @@
                       <p><b>Date:</b> {{event.date.strftime("%B %d, %Y (%A)")}} at {{event.time}}</p>
                       <p><b>Location:</b> {{event.location}}</p>
                       {% if event.recording %}
-                      <p><b>Recording:</b> <a href="{{event.recording}}" target="_blank">Link</a></p>
+                      <p> <a href="{{event.recording}}" target="_blank"> <b>Link to recording</b> </a></p>
                       {% endif %}
                       <div class="content">
                         <div class="abstract-content" style="display: none;">
