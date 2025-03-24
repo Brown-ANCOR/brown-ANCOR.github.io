@@ -24,15 +24,15 @@
 #   recording:
 
 
-# - speaker: Francesca Mignacco
-#   speakerlink: https://scholar.google.com/citations?user=maTV19MAAAAJ&hl=en
-#   title: TBD
-#   affiliation: Princeton/CUNY (Postdoc)
-#   abstract: TBD
-#   date: 2025-04-14
-#   time: 11am
-#   location: Carney Innovation Zone 
-#   recording:
+- speaker: Francesca Mignacco
+  speakerlink: https://scholar.google.com/citations?user=maTV19MAAAAJ&hl=en
+  title: TBD
+  affiliation: Princeton/CUNY (Postdoc)
+  abstract: TBD
+  date: 2025-04-14
+  time: 11am
+  location: Carney Innovation Zone 
+  recording:
 
 
 - speaker: Samuel Lippl
