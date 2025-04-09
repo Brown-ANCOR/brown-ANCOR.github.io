@@ -13,6 +13,8 @@
 #   recording:
 ################################
 
+# COMMENTED OUT SPEAKERS ARE FUTURE UPCOMING TALKS
+#
 # - speaker: Jacob Prince
 #   speakerlink: https://jacob-prince.github.io/
 #   title: TBD
@@ -26,12 +28,12 @@
 
 - speaker: Francesca Mignacco
   speakerlink: https://scholar.google.com/citations?user=maTV19MAAAAJ&hl=en
-  title: TBD
+  title: Statistical physics of artificial and biological neural networks
   affiliation: Princeton/CUNY (Postdoc)
-  abstract: TBD
+  abstract: "Recent experimental breakthroughs have paved the way for collecting “big” neural datasets through the simultaneous recording of the activity in thousands of neurons. However, our understanding of the fundamental principles governing neural activity at the population level remains sparse and requires the establishment of appropriate theoretical frameworks. In particular, understanding how neural systems process information through high-dimensional representations presents a fundamental open challenge. A parallel issue emerges in the context of artificial neural networks, that operate efficiently via the interaction of billions of artificial neurons. A commonly adopted approach involves the analysis of statistical and geometrical attributes of neural representations as population-level mechanistic descriptors of task implementation. One of these population-geometry metrics is the invariant-object classification capacity. However, this metric has been so far limited to linearly separable settings. In the first part of the talk, I will present a theoretical framework that overcomes this limitation leveraging contextual gating of the input. (Reference: F. Mignacco, C.-N. Chou, and S. Chung. Nonlinear classification of neural manifolds with contextual information. Physical Review E 111.3 (2025): 035302).  Training machine learning models relies on various optimization strategies to enhance performance. These include optimization algorithms with adaptive hyper-parameters, time-dependent selection of training examples, and model refinement through dynamic architectures. While these strategies aim to accelerate training and steer models toward solutions with good generalization properties, they often rely on trial-and-error heuristics and lack a solid theoretical foundation. Furthermore, machine learning problems are inherently high-dimensional—in terms of dataset size, input dimensions, and model parameters—challenging meta-optimization techniques that can suffer from the curse of dimensionality. Recent advances in the statistical physics of neural networks have provided powerful tools to capture high-dimensional training dynamics through low-dimensional effective equations that track the evolution of key order parameters. In the second part of the talk, I will present how to integrate dimensionality-reduction techniques from statistical physics with control-theoretic methods to identify optimal training strategies, focusing on continual learning.  (Reference: F. Mori, S. Sarao Mannelli, F. Mignacco. Optimal protocols for continual learning via statistical physics and control theory. arXiv preprint arXiv:2409.18061 (2024). Accepted at ICLR 2025)."
   date: 2025-04-14
   time: 11am
-  location: Carney Innovation Zone 
+  location: Carney Innovation Zone, 164 Angell st, 4th floor 
   recording:
 
 
