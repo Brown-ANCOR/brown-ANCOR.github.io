@@ -59,25 +59,6 @@
           </span>
         </a>
 
-        <!-- <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More Research
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://hypernerf.github.io">
-              HyperNeRF
-            </a>
-            <a class="navbar-item" href="https://nerfies.github.io">
-              Nerfies
-            </a>
-            <a class="navbar-item" href="https://latentfusion.github.io">
-              LatentFusion
-            </a>
-            <a class="navbar-item" href="https://photoshape.github.io">
-              PhotoShape
-            </a>
-          </div>
-        </div> -->
       </div>
 
     </div>
@@ -152,7 +133,7 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h2 class="subtitle">
-          <b>Mondays at 11am</b>
+          <b>Fridays at 2pm</b>
           <br>Organized across locations at Brown University
           home to the AI, Neuro, and Cog research communities (check each event for location; click below for map
           links):
@@ -178,78 +159,83 @@
       <div class="columns is-centered">
         <div class="column is-10">
           <div class="content">
-            <h2 class="title is-4">Event schedule</h2>
+            <!-- <h2 class="title is-4">Event schedule</h2> -->
             <div class="columns is-multiline">
               <div class="column is-12">
 
-                {% for event in talks %}
-
-
-                <div class="card" style="background-color:blanchedalmond">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content">
-                        <p class="title is-4">{{event.title}}</p>
-                        <!-- </div>
-                      <div>&nbsp;</div>
-                      <div> -->
-                        <p class=" is-5"><b>Speaker:</b>
-                          {%if event.speakerlink %}<a href="{{event.speakerlink}}"
-                            target="_blank"><b>{{event.speaker}},</b></a>
-                          {% else %} <b>{{event.speaker}},</b>
-                          {% endif %}
-                          {{event.affiliation}}
-                        </p>
-                        <!-- <p class="subtitle is-6">TBA</p> -->
-                      </div>
-                    </div>
-                    <div class="content">
-                      <p><b>Date:</b> {{event.date.strftime("%B %d, %Y (%A)")}} at {{event.time}}</p>
-                      <p><b>Location:</b> {{event.location}}</p>
-                      {% if event.recording %}
-                      <p> <a href="{{event.recording}}" target="_blank"> <b>Link to recording</b> </a></p>
-                      {% endif %}
-                      <div class="content">
-                        <div class="abstract-content" style="display: none;">
-                          <p>{{event.abstract}}</p>
-                        </div>
-                        <p><b>Abstract:</b>
-                          <a href="javascript:void(0);" onclick="toggleAbstract(this)">
-                            <span class="icon">
-                              <i class="fas fa-chevron-down"></i>
-                            </span>
-                          </a>
-                        </p>
-                        <div class="abstract-content" style="display: none;">
-                          <p>{{event.abstract}}</p>
-                        </div>
-
-                        <script>
-                          function toggleAbstract(link) {
-                            const abstractContent = link.parentElement.nextElementSibling;
-                            const icon = link.querySelector('.icon i');
-                            if (abstractContent.style.display === "none") {
-                              abstractContent.style.display = "block";
-                              icon.classList.remove('fa-chevron-down');
-                              icon.classList.add('fa-chevron-up');
-                            } else {
-                              abstractContent.style.display = "none";
-                              icon.classList.remove('fa-chevron-up');
-                              icon.classList.add('fa-chevron-down');
-                            }
-                          }
-                        </script>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Finish event card -->
-                <div style="margin-bottom: 20px;"></div>
-                {% endfor %}
+                <!-- CONTENT EDITED FROM HERE: [a] -->
 
               </div>
             </div>
   </section>
+
+
+  <section class="">
+    <div class="container is-max-desktop">
+      <div class="columns" style="margin: 2%;">
+
+        <!-- Column for future talks -->
+        <div class="column is-half">
+          <h2 class="title is-4">Upcoming Talks</h2>
+          {% for event in talks|sort(attribute='date') %}
+          {% if event.date >= current_date %}
+          <div class="card" style="background-color:lightyellow">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">{{event.title}}</p>
+                  <p class="is-4">
+                    {%if event.speakerlink %}<a href="{{event.speakerlink}}"
+                      target="_blank"><b>{{event.speaker}}</b></a>
+                    {% else %} <b>{{event.speaker}}</b>
+                    {% endif %}
+                  </p>
+                  <p class="is-5">{{event.affiliation}}</p>
+                  &nbsp;
+                  <p><b>Date:</b> {{event.date.strftime("%B %d, %Y (%A)")}} at {{event.time}}</p>
+                  <p><b>Location:</b> {{event.location}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          &nbsp;
+          {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Column for past talks -->
+        <div class="column is-half">
+          <h2 class="title is-4">Past Talks</h2>
+          {% for event in talks|sort(attribute='date', reverse=True) %}
+
+          {% if event.date < current_date %} <div class="card"
+            style="background-color:{% if event.cancelled %}lightgray{% else %}blanchedalmond{% endif %}">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">{{event.title}}</p>
+                  <p class="is-4">
+                    {%if event.speakerlink %}<a href="{{event.speakerlink}}"
+                      target="_blank"><b>{{event.speaker}}</b></a>
+                    {% else %} <b>{{event.speaker}}</b>
+                    {% endif %}
+                  </p>
+                  <p class="is-5">{{event.affiliation}}</p>
+                  &nbsp;
+                  <p><b>Date:</b> {{event.date.strftime("%B %d, %Y (%A)")}} at {{event.time}}</p>
+                  <p><b>Location:</b> {{event.location}}</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        &nbsp;
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+
 
 
   <footer class="footer">
