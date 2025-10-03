@@ -1,13 +1,13 @@
 locations:
-    - name: CIT 477 (Lubrano), 115 Waterman st. 4th floor
-      gmaps: https://maps.app.goo.gl/f9uriuEiVXWUgWZJ7
-    - name: Carney Institute Innovation Zone, 164 Angell st. 4th ﬂoor
-      gmaps: https://maps.app.goo.gl/WPWpT8BrocitU7HbA
-    - name: Metcalf/CoPsy department, 190 Thayer st.
-      gmaps: https://maps.app.goo.gl/e8SXR7ZWUXBTAfPT6
+  - name: Carney Institute Innovation Zone, 164 Angell St (4th ﬂoor)
+    gmaps: https://maps.app.goo.gl/WPWpT8BrocitU7HbA
+  - name: CIT 477 (Lubrano), 115 Waterman St
+    gmaps: https://maps.app.goo.gl/f9uriuEiVXWUgWZJ7
+  - name: Metcalf/CoPsy Department, 190 Thayer St
+    gmaps: https://maps.app.goo.gl/e8SXR7ZWUXBTAfPT6
 
 contact:
-    - email: "michael_lepori [at] brown [dot] edu"
-      name: Mikey Lepori
-    - email: "aalok [at] brown [dot] edu"
-      name: Aalok Sathe
+  - email: "aalok [at] brown [dot] edu"
+    name: Aalok Sathe
+  - email: "michael_lepori [at] brown [dot] edu"
+    name: Mikey Lepori

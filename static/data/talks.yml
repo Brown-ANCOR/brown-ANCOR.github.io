@@ -16,6 +16,33 @@
 # COMMENTED OUT SPEAKERS ARE FUTURE UPCOMING TALKS
 #
 
+- speaker: Erin Grant
+  speakerlink: https://eringrant.github.io/
+  title: TBD
+  affiliation: NYU (Faculty Fellow)
+  abstract: TBD
+  date: 2026-05-08
+  time: 2pm
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
+
+- speaker: Brian Cheung
+  speakerlink: https://briancheung.github.io/
+  title: TBD
+  affiliation: MIT (CBMM Fellow)
+  abstract: TBD
+  date: 2025-11-14
+  time: 2pm
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
+
+- speaker: Sheridan Feucht
+  speakerlink: https://sfeucht.github.io/
+  title: TBD
+  affiliation: Northeastern University (PhD Student)
+  abstract: TBD
+  date: 2025-10-24
+  time: 2pm
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
+
 - speaker: Jacob Prince
   speakerlink: https://jacob-prince.github.io/
   title: Modeling the emergence and function of high-level representations in visual cortex
@@ -23,20 +50,19 @@
   abstract: "How does the visual system develop category-selective regions for faces, bodies, scenes, and words? And how can we tell whether our deep neural network (DNN) models actually capture the feature tuning that arises in these brain areas? In this talk, I will first show that contrastive learning over large-scale natural image sets naturally gives rise to category-selective units for faces, scenes, bodies, and words, even in the absence of any category-specific learning rules or inductive biases. These emergent selective units have dissociable functional roles in object recognition when lesioned, and can predict responses in corresponding selective areas of human ventral visual cortex. These findings support a unifying account of category representation that bridges longstanding debates between modular and distributed theories of high-level vision. Building on this framework, I will then introduce 'parametric neural control' as a novel, more stringent test of DNN-brain alignment. Many DNN encoding models may show near-equal performance in predicting visual responses, while relying on fundamentally different features and computations. We demonstrate this using an interpretability technique called feature accentuation (Hamblin, Fel, et al., 2024), which enables us to synthesize stimulus sets that systematically vary along model-specific encoding axes, and, to then test each model's ability to precisely modulate neural responses in macaque inferotemporal cortex. Strikingly, we find that DNNs with equivalent encoding scores on natural images can show marked differences in their capacity to control neural responses using these targeted image manipulations. This approach therefore provides a new means to arbitrate between models, requiring a stronger commitment to feature tuning properties in local parts of the natural image manifold. Overall, these studies provide an updated deep learning paradigm for understanding the emergence and function of high-level visual representations in greater detail."
   date: 2025-04-28
   time: 11am
-  location: CIT 477, Lubrano 
+  location: CIT 477, Lubrano
   recording: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fb03e5eb-4e6a-499e-aaf9-b2d000f6767c
-
 
 - speaker: Francesca Mignacco
   speakerlink: https://biophysics.princeton.edu/people/francesca-mignacco
-  title: "[CANCELLED] Statistical physics of artificial and biological neural networks"
+  title: "(cancelled) Statistical physics of artificial and biological neural networks"
   affiliation: Princeton Center for the Physics of Biological Function (Postdoc)
   abstract: "Recent experimental breakthroughs have paved the way for collecting “big” neural datasets through the simultaneous recording of the activity in thousands of neurons. However, our understanding of the fundamental principles governing neural activity at the population level remains sparse and requires the establishment of appropriate theoretical frameworks. In particular, understanding how neural systems process information through high-dimensional representations presents a fundamental open challenge. A parallel issue emerges in the context of artificial neural networks, that operate efficiently via the interaction of billions of artificial neurons. A commonly adopted approach involves the analysis of statistical and geometrical attributes of neural representations as population-level mechanistic descriptors of task implementation. One of these population-geometry metrics is the invariant-object classification capacity. However, this metric has been so far limited to linearly separable settings. In the first part of the talk, I will present a theoretical framework that overcomes this limitation leveraging contextual gating of the input. (Reference: F. Mignacco, C.-N. Chou, and S. Chung. Nonlinear classification of neural manifolds with contextual information. Physical Review E 111.3 (2025): 035302).  Training machine learning models relies on various optimization strategies to enhance performance. These include optimization algorithms with adaptive hyper-parameters, time-dependent selection of training examples, and model refinement through dynamic architectures. While these strategies aim to accelerate training and steer models toward solutions with good generalization properties, they often rely on trial-and-error heuristics and lack a solid theoretical foundation. Furthermore, machine learning problems are inherently high-dimensional—in terms of dataset size, input dimensions, and model parameters—challenging meta-optimization techniques that can suffer from the curse of dimensionality. Recent advances in the statistical physics of neural networks have provided powerful tools to capture high-dimensional training dynamics through low-dimensional effective equations that track the evolution of key order parameters. In the second part of the talk, I will present how to integrate dimensionality-reduction techniques from statistical physics with control-theoretic methods to identify optimal training strategies, focusing on continual learning.  (Reference: F. Mori, S. Sarao Mannelli, F. Mignacco. Optimal protocols for continual learning via statistical physics and control theory. arXiv preprint arXiv:2409.18061 (2024). Accepted at ICLR 2025)."
   date: 2025-04-14
   time: 11am
-  location: Carney Innovation Zone, 164 Angell st, 4th floor 
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
   recording:
-
+  cancelled: true
 
 - speaker: Samuel Lippl
   speakerlink: https://scholar.google.com/citations?user=56QHqZsAAAAJ&hl=en
@@ -45,7 +71,7 @@
   abstract: TBD
   date: 2025-03-17
   time: 11am
-  location: Metcalf 107 
+  location: Metcalf 107
   recording: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e330e59-b3b7-4ce6-99c2-b2d000f6746d
 
 - speaker: Aditya Yedetore
@@ -76,7 +102,7 @@
   date: 2025-01-27
   time: 11am
   location: CIT 477, Lubrano
-  recording: 
+  recording:
 
 - speaker: Eghbal Hosseini
   speakerlink: https://eghbalhosseini.github.io/
