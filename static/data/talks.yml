@@ -36,9 +36,10 @@
 
 - speaker: Sheridan Feucht
   speakerlink: https://sfeucht.github.io/
-  title: TBD
+  title: LLMs represent words, not just tokens
   affiliation: Northeastern University (PhD Student)
-  abstract: TBD
+  abstract: |
+    What is a word to an LLM? Individual tokens are often semantically unrelated to the meanings of the words/concepts they comprise, meaning that LLMs must build up representations of word meaning in-context that are separate from token identities. In this talk, I show how these multi-token words can be used as a wedge to separate conceptual representations from literal token representations. I describe our "dual-route theory of induction", which argues that models copy literal token information in parallel with "fuzzy" word representations, and show that this "fuzzy" concept induction is vital for other tasks, like translation. Finally, I describe our recent work analyzing the geometry of these independent subspaces, which suggests that they are likely useful for more than just copying.
   date: 2025-10-24
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
