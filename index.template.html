@@ -178,11 +178,11 @@
 
 
   <section class="">
-    <div class="container is-max-desktop">
-      <div class="columns" style="margin: 2%;">
+    <div class="container is-max-desktop is-max-widescreen">
+      <div class="columns is-centered" style="margin: 2%;">
 
         <!-- Column for future talks -->
-        <div class="column is-half">
+        <div class="column is-7">
           <h2 class="title is-4">Upcoming Talks</h2>
           {% for event in talks|sort(attribute='date') %}
           {% if event.date >= current_date %}
@@ -191,7 +191,7 @@
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">{{event.title}}</p>
-                  <p class="is-4">
+                  <p class="is-6">
                     {%if event.speakerlink %}<a href="{{event.speakerlink}}"
                       target="_blank"><b>{{event.speaker}}</b></a>
                     {% else %} <b>{{event.speaker}}</b>
@@ -240,7 +240,7 @@
         </div>
 
         <!-- Column for past talks -->
-        <div class="column is-half">
+        <div class="column is-7">
           <h2 class="title is-4">Past Talks</h2>
           {% for event in talks|sort(attribute='date', reverse=True) %}
 
@@ -250,7 +250,7 @@
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">{{event.title}}</p>
-                  <p class="is-4">
+                  <p class="is-6">
                     {%if event.speakerlink %}<a href="{{event.speakerlink}}"
                       target="_blank"><b>{{event.speaker}}</b></a>
                     {% else %} <b>{{event.speaker}}</b>
