@@ -12,16 +12,21 @@
   <script>
     window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    // function gtag() {
+    //   dataLayer.push(arguments);
+    // }
 
-    gtag('js', new Date());
+    // gtag('js', new Date());
 
-    gtag('config', 'G-PYVRSFMDRL');
+    // gtag('config', 'G-PYVRSFMDRL');
   </script>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -29,7 +34,7 @@
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/favicon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -150,11 +155,7 @@
           <br>
           <!-- ANCOR talks are also Carney Center for Computational Brain Science (CCBS) events. -->
         </h2>
-        <h3>Organized by <br>
-          {% for person in info.contact %}
-          <b>{{person.name}}</b> ({{person.email}}) {% if not loop.last %} &nbsp;&&nbsp; {% endif %}
-          {% endfor %}
-        </h3>
+
       </div>
     </div>
   </section>
@@ -215,7 +216,7 @@
                     <script>
                       function toggleAbstract(link) {
                         const abstractContent = link.parentElement.nextElementSibling;
-                        const icon = link.querySelector('.icon i');
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
                         if (abstractContent.style.display === "none") {
                           abstractContent.style.display = "block";
                           icon.classList.remove('fa-chevron-down');
@@ -277,16 +278,18 @@
 
                     <script>
                       function toggleAbstract(link) {
-                        const abstractContent = link.parentElement.nextElementSibling;
-                        const icon = link.querySelector('.icon i');
-                        if (abstractContent.style.display === "none") {
-                          abstractContent.style.display = "block";
-                          icon.classList.remove('fa-chevron-down');
-                          icon.classList.add('fa-chevron-up');
-                        } else {
-                          abstractContent.style.display = "none";
-                          icon.classList.remove('fa-chevron-up');
-                          icon.classList.add('fa-chevron-down');
+                        const abstractContent = link.parentElement?.nextElementSibling;
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
                         }
                       }
                     </script>
@@ -318,13 +321,17 @@
       <div class="columns is-centered">
         <div class="column is-8">
           <div class="content">
-            <p>
+            <p>ANCOR is organized by
+              {% for person in info.contact %}
+              <b>{{person.name}}</b> ({{person.email}}) {% if not loop.last %} &nbsp;&&nbsp; {% endif %}
+              {% endfor %}
+              <br>
+              Want to help organize ANCOR? Please reach out!
+            </p>
+            <p class="is-size-7">
               This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
                 target="_blank">Creative
                 Commons Attribution-ShareAlike 4.0 International License</a>.
-            </p>
-            <p>
-
               This means you are free to borrow the <a href="https://github.com/brown-ancor/brown-ancor.github.io/"
                 target="_blank">source
                 code</a> of this website, we just ask that you link back to this page in the footer. (Originally adapted
