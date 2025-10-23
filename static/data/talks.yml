@@ -27,9 +27,10 @@
 
 - speaker: Brian Cheung
   speakerlink: https://briancheung.github.io/
-  title: TBD
+  title: You can just align things
   affiliation: MIT (CBMM Fellow)
-  abstract: TBD
+  abstract: |
+    Representation alignment is often seen as another optimization objective in the traditional pipeline of deep learning. You create an objective function that encodes your alignment metric and then train or fine-tune a network end-to-end. In this talk, I argue that representations can be steered in alternative ways, allowing us to break this cycle. These methods range from aligning models across different modalities without any training to observing significant benefits when aligning to an untrained model. I'll begin by showing that cross-modal alignment is achievable during inference alone, without any training. I’ll also show that progressive alignment enables capabilities remain intact as we transfer between very different architectures. In short, there are more ways to align than initially thought, so you should align things.
   date: 2025-11-14
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
