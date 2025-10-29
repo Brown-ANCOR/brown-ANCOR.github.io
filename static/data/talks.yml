@@ -1,4 +1,5 @@
-# this file houses all past and upcoming speakers and the details of their talk and affiliation
+# this file houses all past and upcoming speakers and the details 
+# of their talk and affiliation
 #
 # TO ADD A SPEAKER: COPY THIS BLOB AND FILL IN THE DETAILS
 ################################
@@ -8,7 +9,7 @@
 #   affiliation:
 #   abstract:
 #   date: yyyy-mm-dd
-#   time: 11am
+#   time: 2pm
 #   location:
 #   recording:
 ################################
@@ -22,6 +23,15 @@
   affiliation: NYU (Faculty Fellow)
   abstract: TBD
   date: 2026-05-08
+  time: 2pm
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
+
+- speaker: Keyon Vafa
+  speakerlink: https://keyonvafa.com/
+  title: TBD
+  affiliation: Harvard Data Science Initiative (Postdoc)
+  abstract: TBD
+  date: 2025-12-12
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
 
