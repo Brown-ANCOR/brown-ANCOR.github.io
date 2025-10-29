@@ -21,6 +21,7 @@
     // gtag('config', 'G-PYVRSFMDRL');
   </script>
 
+  <script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,7 +182,7 @@
   </section>
 
 
-  <section class="">
+  <section class="cards-container">
     <div class="container is-max-desktop is-max-widescreen">
       <div class="columns is-centered" style="margin: 2%;">
 
@@ -831,7 +832,6 @@
 
 
 
-
   <footer class="footer">
     <div class="container">
       <!-- <div class="content has-text-centered">
@@ -868,6 +868,22 @@
       </div>
     </div>
   </footer>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Select all .card elements
+      var cards = document.querySelectorAll('.card');
+      // Iterate in ascending (forwards) order
+      for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        // Make each card draggable
+        new Draggabilly(card, {
+          containment: '.cards-container' // Keeps cards within the window
+        });
+      }
+    });
+  </script>
 
 </body>
 
