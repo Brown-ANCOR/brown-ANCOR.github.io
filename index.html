@@ -209,19 +209,21 @@
           
           
           
+          
+          
           <div class="card" style="background-color:lightyellow">
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Testing AI's Implicit World Models</p>
+                  <p class="title is-4">TBD</p>
                   <p class="is-6">
-                    <a href="https://keyonvafa.com/"
-                      target="_blank"><b>Keyon Vafa</b></a>
+                    <a href="https://https://www.soniamurthy.com/"
+                      target="_blank"><b>Sonia Murthy</b></a>
                     
                   </p>
-                  <p class="is-5">Harvard Data Science Initiative (Postdoc)</p>
+                  <p class="is-5">Harvard University (PhD Student)</p>
                   &nbsp;
-                  <p><b>Date:</b> December 12, 2025 (Friday) at 2pm</p>
+                  <p><b>Date:</b> February 20, 2026 (Friday) at 2pm</p>
                   <p><b>Location:</b> Carney Innovation Zone, 164 Angell st, 4th floor</p>
                   <div class="content">
                     <p><b>Abstract:</b>
@@ -232,18 +234,7 @@
                       </a>
                     </p>
                     <div class="abstract-content" style="display: none;">
-                      <p>Many of the robustness properties that are required for real-world
-applications of AI would be realized by a model that has understood the
-world.  But it is unclear how to measure -- let alone define --
-understanding. This talk will propose theoretically-grounded definitions
-and metrics that test for a model's implicit understanding, or its world
-model. We will focus on two kinds of settings: one where implicit world
-models are tested behaviorally, and another that tests a model's
-representation. These exercises -- in applications ranging from LLMs
-learning the rules of games to testing whether models acquire Newtonian
-mechanics --  demonstrate that models can make highly accurate predictions
-with incoherent world models, revealing their fragility.
-</p>
+                      <p>TBD</p>
                     </div>
 
                     <script>
@@ -332,6 +323,71 @@ with incoherent world models, revealing their fragility.
         
 
           
+        
+
+           <div class="card"
+            style="background-color:blanchedalmond">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Testing AI's Implicit World Models</p>
+                  <p class="is-6">
+                    <a href="https://keyonvafa.com/"
+                      target="_blank"><b>Keyon Vafa</b></a>
+                    
+                  </p>
+                  <p class="is-5">Harvard Data Science Initiative (Postdoc)</p>
+                  &nbsp;
+                  <p><b>Date:</b> December 12, 2025 (Friday) at 2pm</p>
+                  <p><b>Location:</b> Carney Innovation Zone, 164 Angell st, 4th floor</p>
+                  
+                  <div class="content">
+                    <p><b>Abstract:</b>
+                      <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                        <span class="icon">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </a>
+                    </p>
+                    <div class="abstract-content" style="display: none;">
+                      <p>Many of the robustness properties that are required for real-world
+applications of AI would be realized by a model that has understood the
+world.  But it is unclear how to measure -- let alone define --
+understanding. This talk will propose theoretically-grounded definitions
+and metrics that test for a model's implicit understanding, or its world
+model. We will focus on two kinds of settings: one where implicit world
+models are tested behaviorally, and another that tests a model's
+representation. These exercises -- in applications ranging from LLMs
+learning the rules of games to testing whether models acquire Newtonian
+mechanics --  demonstrate that models can make highly accurate predictions
+with incoherent world models, revealing their fragility.
+</p>
+                    </div>
+
+                    <script>
+                      function toggleAbstract(link) {
+                        const abstractContent = link.parentElement?.nextElementSibling;
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        &nbsp;
+        
         
 
            <div class="card"
@@ -891,13 +947,13 @@ with incoherent world models, revealing their fragility.
       // Select all .card elements
       var cards = document.querySelectorAll('.card');
       // Iterate in ascending (forwards) order
-      for (var i = 0; i < cards.length; i++) {
-        var card = cards[i];
-        // Make each card draggable
-        new Draggabilly(card, {
-          containment: '.cards-container' // Keeps cards within the window
-        });
-      }
+      //for (var i = 0; i < cards.length; i++) {
+      //  var card = cards[i];
+      //  // Make each card draggable
+      //  new Draggabilly(card, {
+      //    containment: '.cards-container' // Keeps cards within the window
+      //  });
+      //}
     });
   </script>
 
