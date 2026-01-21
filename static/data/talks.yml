@@ -27,10 +27,37 @@
   location: Carney Innovation Zone, 164 Angell st, 4th floor
 
 - speaker: Sonia Murthy
+<<<<<<< HEAD
   speakerlink: https://www.soniamurthy.com/
   title: TBD
+=======
+  speakerlink: https://https://www.soniamurthy.com/
+  title: Evaluating human-like conceptual diversity and value trade-offs in alignment
+>>>>>>> 91515da83e3292d9c163c55209cb2ad1f988e051
   affiliation: Harvard University (PhD Student)
-  abstract: TBD
+  abstract: |
+    Post-training alignment techniques are now standard parts of LLM
+    development and are presumed to contribute to the human-like abilities of
+    models. In this talk, I will present two studies examining whether LLMs'
+    response distributions capture the diversity and value pluralism important
+    for their deployment in human-centered applications. In the first, we
+    evaluate claims that models can replace humans in behavioral research using
+    a novel metric for conceptual diversity in synthetic LLM "populations" that
+    relates individual-level variability to population-level variability. We
+    use this approach to evaluate non-aligned and aligned LLMs on two domains
+    with rich human behavioral data and find that aligned models display less
+    conceptual diversity than their instruction fine-tuned counterparts. In the
+    second work, we use a leading cognitive model of polite speech to
+    systematically evaluate value trade-offs in two model settings: degrees of
+    reasoning budget in frontier black-box models, and RL post-training
+    dynamics of open-source models. We find interpretable patterns of
+    informational, social, and presentational utilities emerging from low-level
+    training decisions, and that these patterns shift in predictable ways when
+    models are prompted to prioritize certain goals. Finally, I'll share
+    thoughts on future directions for these works, including improving LLM
+    personalization, generating hypotheses about other social behaviors like
+    sycophancy, and guiding value trade-offs during model development.
+
   date: 2026-02-20
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
