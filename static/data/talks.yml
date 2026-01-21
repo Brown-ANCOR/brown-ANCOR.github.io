@@ -27,13 +27,8 @@
   location: Carney Innovation Zone, 164 Angell st, 4th floor
 
 - speaker: Sonia Murthy
-<<<<<<< HEAD
   speakerlink: https://www.soniamurthy.com/
-  title: TBD
-=======
-  speakerlink: https://https://www.soniamurthy.com/
   title: Evaluating human-like conceptual diversity and value trade-offs in alignment
->>>>>>> 91515da83e3292d9c163c55209cb2ad1f988e051
   affiliation: Harvard University (PhD Student)
   abstract: |
     Post-training alignment techniques are now standard parts of LLM
