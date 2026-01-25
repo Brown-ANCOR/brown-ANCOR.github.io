@@ -26,6 +26,24 @@
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
 
+- speaker: Gassel Elbanna
+  speakerlink: https://gasserelbanna.github.io/
+  title: TBD
+  affiliation: MIT (PhD Student)
+  abstract: 
+  date: 2026-04-17
+  time: 2pm
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
+
+- speaker: Tyler Brooke-Wilson
+  speakerlink: https://www.tylerbrookewilson.com/
+  title: TBD
+  affiliation: Yale University (Assistant Professor)
+  abstract: 
+  date: 2026-03-20
+  time: 2pm
+  location: Carney Innovation Zone, 164 Angell st, 4th floor
+
 - speaker: Sonia Murthy
   speakerlink: https://www.soniamurthy.com/
   title: Evaluating human-like conceptual diversity and value trade-offs in alignment
@@ -52,7 +70,6 @@
     thoughts on future directions for these works, including improving LLM
     personalization, generating hypotheses about other social behaviors like
     sycophancy, and guiding value trade-offs during model development.
-
   date: 2026-02-20
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
