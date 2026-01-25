@@ -187,7 +187,10 @@
           <h2 class="title is-4">Upcoming Talks</h2>
           {% for event in talks|sort(attribute='date') %}
           {% if event.date >= current_date %}
-          <div class="card" style="background-color:lightyellow">
+          <!-- <div class="card" style="background-color:lightyellow"> -->
+          <div class="card"
+            style="background-color:{% if event.cancelled %}lightgray{% elif event.virtual %}lavenderblush{% else %}lightyellow{% endif %}">
+
             <div class="card-content">
               <div class="media">
                 <div class="media-content">

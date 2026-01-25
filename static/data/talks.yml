@@ -1,4 +1,4 @@
-# this file houses all past and upcoming speakers and the details 
+# this file houses all past and upcoming speakers and the details
 # of their talk and affiliation
 #
 # TO ADD A SPEAKER: COPY THIS BLOB AND FILL IN THE DETAILS
@@ -30,7 +30,7 @@
   speakerlink: https://gasserelbanna.github.io/
   title: TBD
   affiliation: MIT (PhD Student)
-  abstract: 
+  abstract:
   date: 2026-04-17
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
@@ -39,7 +39,7 @@
   speakerlink: https://www.tylerbrookewilson.com/
   title: TBD
   affiliation: Yale University (Assistant Professor)
-  abstract: 
+  abstract:
   date: 2026-03-20
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
@@ -76,29 +76,30 @@
 
 - speaker: Jo Warren
   speakerlink: https://www.sainsburywellcome.org/web/people/joseph-warren-0
-  title: TBD
+  title: TBD (virtual-only)
   affiliation: University College London (PhD Student)
   abstract: TBD
   date: 2026-02-13
   time: 12pm
   location: (virtual)
+  virtual: true
 
 - speaker: Keyon Vafa
   speakerlink: https://keyonvafa.com/
   title: Testing AI's Implicit World Models
   affiliation: Harvard Data Science Initiative (Postdoc)
   abstract: |
-      Many of the robustness properties that are required for real-world
-      applications of AI would be realized by a model that has understood the
-      world.  But it is unclear how to measure -- let alone define --
-      understanding. This talk will propose theoretically-grounded definitions
-      and metrics that test for a model's implicit understanding, or its world
-      model. We will focus on two kinds of settings: one where implicit world
-      models are tested behaviorally, and another that tests a model's
-      representation. These exercises -- in applications ranging from LLMs
-      learning the rules of games to testing whether models acquire Newtonian
-      mechanics --  demonstrate that models can make highly accurate predictions
-      with incoherent world models, revealing their fragility.
+    Many of the robustness properties that are required for real-world
+    applications of AI would be realized by a model that has understood the
+    world.  But it is unclear how to measure -- let alone define --
+    understanding. This talk will propose theoretically-grounded definitions
+    and metrics that test for a model's implicit understanding, or its world
+    model. We will focus on two kinds of settings: one where implicit world
+    models are tested behaviorally, and another that tests a model's
+    representation. These exercises -- in applications ranging from LLMs
+    learning the rules of games to testing whether models acquire Newtonian
+    mechanics --  demonstrate that models can make highly accurate predictions
+    with incoherent world models, revealing their fragility.
   date: 2025-12-12
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
