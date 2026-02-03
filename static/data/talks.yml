@@ -76,12 +76,30 @@
 
 - speaker: Jo Warren
   speakerlink: https://www.sainsburywellcome.org/web/people/joseph-warren-0
-  title: TBD (virtual-only)
+  title: |
+    A Mechanistic Theory Unifying Cognitive Maps and Value in Frontal Cortex
   affiliation: University College London (PhD Student)
-  abstract: TBD
+  abstract: |
+    Animals exhibit behavioural flexibility by making reward-optimal decisions
+    in unfamiliar situations. Computing value from minimal reward feedback
+    requires leveraging known structure in the world. The Prefrontal Cortex
+    (PFC) plays a pivotal role in both value computation and learning world
+    structure, however mechanistic explanations for each---within the frameworks
+    of Reinforcement Learning and Cognitive Maps---are largely distinct. We
+    develop a mechanistic model of PFC that unifies value and structure through
+    behavioural flexibility. In this model, value acts as a control signal that
+    gates structured working memory representations of the current context in
+    order to ultimately control behaviour. This is a significant departure from
+    the conventional perspective of value as an action readout. Critically, this
+    model generalises to novel contexts without need for additional synaptic
+    plasticity.  We demonstrate that recurrent neural networks (RNNs)
+    meta-trained with RL recapitulate this exact model on various value-based
+    tasks. These results not only provide a parsimonious explanation of both the
+    value and schema frameworks of PFC function, but also a mechanistic
+    understanding of PFCs role in flexible decision making.  
   date: 2026-02-13
   time: 12pm
-  location: (virtual)
+  location: "(virtual-only: see calendar for zoom link; live webcast available at Metcalf, 3rd floor, Dome room)"
   virtual: true
 
 - speaker: Keyon Vafa
