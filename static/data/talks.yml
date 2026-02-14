@@ -101,6 +101,7 @@
   time: 12pm
   location: "(virtual-only: see calendar for zoom link; live webcast available at Metcalf, 3rd floor, Dome room)"
   virtual: true
+  recording: https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7516a793-fd61-4134-bc52-b3f00133a1a9
 
 - speaker: Keyon Vafa
   speakerlink: https://keyonvafa.com/
