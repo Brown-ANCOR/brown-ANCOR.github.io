@@ -211,76 +211,6 @@
           
           
           
-          <!-- <div class="card" style="background-color:lightyellow"> -->
-          <div class="card"
-            style="background-color:lavenderblush">
-
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">A Mechanistic Theory Unifying Cognitive Maps and Value in Frontal Cortex
-</p>
-                  <p class="is-6">
-                    <a href="https://www.sainsburywellcome.org/web/people/joseph-warren-0"
-                      target="_blank"><b>Jo Warren</b></a>
-                    
-                  </p>
-                  <p class="is-5">University College London (PhD Student)</p>
-                  &nbsp;
-                  <p><b>Date:</b> February 13, 2026 (Friday) at 12pm</p>
-                  <p><b>Location:</b> (virtual-only: see calendar for zoom link; live webcast available at Metcalf, 3rd floor, Dome room)</p>
-                  <div class="content">
-                    <p><b>Abstract:</b>
-                      <a href="javascript:void(0);" onclick="toggleAbstract(this)">
-                        <span class="icon">
-                          <i class="fas fa-chevron-down"></i>
-                        </span>
-                      </a>
-                    </p>
-                    <div class="abstract-content" style="display: none;">
-                      <p>Animals exhibit behavioural flexibility by making reward-optimal decisions
-in unfamiliar situations. Computing value from minimal reward feedback
-requires leveraging known structure in the world. The Prefrontal Cortex
-(PFC) plays a pivotal role in both value computation and learning world
-structure, however mechanistic explanations for each---within the frameworks
-of Reinforcement Learning and Cognitive Maps---are largely distinct. We
-develop a mechanistic model of PFC that unifies value and structure through
-behavioural flexibility. In this model, value acts as a control signal that
-gates structured working memory representations of the current context in
-order to ultimately control behaviour. This is a significant departure from
-the conventional perspective of value as an action readout. Critically, this
-model generalises to novel contexts without need for additional synaptic
-plasticity.  We demonstrate that recurrent neural networks (RNNs)
-meta-trained with RL recapitulate this exact model on various value-based
-tasks. These results not only provide a parsimonious explanation of both the
-value and schema frameworks of PFC function, but also a mechanistic
-understanding of PFCs role in flexible decision making.  
-</p>
-                    </div>
-
-                    <script>
-                      function toggleAbstract(link) {
-                        const abstractContent = link.parentElement.nextElementSibling;
-                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
-                        if (abstractContent.style.display === "none") {
-                          abstractContent.style.display = "block";
-                          icon.classList.remove('fa-chevron-down');
-                          icon.classList.add('fa-chevron-up');
-                        } else {
-                          abstractContent.style.display = "none";
-                          icon.classList.remove('fa-chevron-up');
-                          icon.classList.add('fa-chevron-down');
-                        }
-                      }
-                    </script>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          &nbsp;
-          
           
           
           <!-- <div class="card" style="background-color:lightyellow"> -->
@@ -538,7 +468,79 @@ sycophancy, and guiding value trade-offs during model development.
           
         
 
-          
+           <div class="card"
+            style="background-color:blanchedalmond">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">A Mechanistic Theory Unifying Cognitive Maps and Value in Frontal Cortex
+</p>
+                  <p class="is-6">
+                    <a href="https://www.sainsburywellcome.org/web/people/joseph-warren-0"
+                      target="_blank"><b>Jo Warren</b></a>
+                    
+                  </p>
+                  <p class="is-5">University College London (PhD Student)</p>
+                  &nbsp;
+                  <p><b>Date:</b> February 13, 2026 (Friday) at 12pm</p>
+                  <p><b>Location:</b> (virtual-only: see calendar for zoom link; live webcast available at Metcalf, 3rd floor, Dome room)</p>
+                  
+                  <p> <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7516a793-fd61-4134-bc52-b3f00133a1a9" target="_blank" style="color: inherit; text-decoration: underline;">
+                      <b>Link to recording</b> </a></p>
+                  
+                  <div class="content">
+                    <p><b>Abstract:</b>
+                      <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                        <span class="icon">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </a>
+                    </p>
+                    <div class="abstract-content" style="display: none;">
+                      <p>Animals exhibit behavioural flexibility by making reward-optimal decisions
+in unfamiliar situations. Computing value from minimal reward feedback
+requires leveraging known structure in the world. The Prefrontal Cortex
+(PFC) plays a pivotal role in both value computation and learning world
+structure, however mechanistic explanations for each---within the frameworks
+of Reinforcement Learning and Cognitive Maps---are largely distinct. We
+develop a mechanistic model of PFC that unifies value and structure through
+behavioural flexibility. In this model, value acts as a control signal that
+gates structured working memory representations of the current context in
+order to ultimately control behaviour. This is a significant departure from
+the conventional perspective of value as an action readout. Critically, this
+model generalises to novel contexts without need for additional synaptic
+plasticity.  We demonstrate that recurrent neural networks (RNNs)
+meta-trained with RL recapitulate this exact model on various value-based
+tasks. These results not only provide a parsimonious explanation of both the
+value and schema frameworks of PFC function, but also a mechanistic
+understanding of PFCs role in flexible decision making.  
+</p>
+                    </div>
+
+                    <script>
+                      function toggleAbstract(link) {
+                        const abstractContent = link.parentElement?.nextElementSibling;
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        &nbsp;
+        
         
 
            <div class="card"
