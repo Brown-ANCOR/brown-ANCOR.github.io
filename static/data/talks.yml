@@ -37,9 +37,21 @@
 
 - speaker: Tyler Brooke-Wilson
   speakerlink: https://www.tylerbrookewilson.com/
-  title: TBD
+  title: Model Synthesis Architectures for Reasoning and Planning
   affiliation: Yale University (Assistant Professor)
-  abstract:
+  abstract: |
+    How does the mind effectively model the world for reasoning and planning?
+    Answering this requires specifying a cognitive architecture – a basic set of
+    representations and operations over them that is stable across diverse bouts
+    of cognition. Advances in AI have made building out and testing partial
+    theories of cognitive architecture increasingly attainable, allowing these
+    classic questions of the structure of the mind to be approached head on. In
+    this talk, I'll discuss the chief desiderata for a human-like cognitive
+    architecture, outline a theoretical argument for a particular class of
+    cognitive architectures, and share preliminary empirical results comparing a
+    basic implementation to natural alternatives. I end with some lessons for
+    human rationality – that is, how we ought to use our minds in light of what
+    they can and cannot do.  
   date: 2026-03-20
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
