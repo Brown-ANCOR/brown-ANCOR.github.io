@@ -28,9 +28,33 @@
 
 - speaker: Gasser Elbanna
   speakerlink: https://gasserelbanna.github.io/
-  title: TBD
+  title: Modeling and measuring human speech perception using artificial neural networks
   affiliation: MIT (PhD Student)
-  abstract:
+  abstract: |
+      Everyday conversation is a remarkable feat---listeners extract meaning
+      from a continuous stream of speech sounds and produce spoken utterances in
+      turn. Speech perception is thought to support these downstream processes
+      by transforming variable acoustic input into robust perceptual
+      representations. Yet this mapping is not deterministic. There is no
+      one-to-one correspondence between acoustic patterns and linguistic units,
+      because the speech signal varies substantially across talkers, contexts,
+      and listening conditions. Progress in understanding how humans achieve
+      perceptual invariance, and the mechanisms that support robust speech
+      recognition, has been limited by the lack of (i) stimulus-computable
+      models that replicate human behavior and (ii) large-scale behavioral
+      benchmarks for comparing humans and models on speech perception tasks.  In
+      this talk, I will present PARROT, an artificial neural network model of
+      human speech perception. PARROT combines a simulation of the human ear
+      with convolutional and recurrent neural network modules to map variable
+      acoustic signals onto linguistic representations. I will then present
+      comparisons between PARROT and humans across a suite of novel and
+      established behavioral and neural evaluations. PARROT faithfully
+      reproduces patterns of human responses and confusions while also capturing
+      key behavioral and neural signatures of speech perception. I will further
+      show how PARROT generates testable predictions about the role of
+      contextual integration in shaping human speech perception. Finally, I will
+      highlight the transformations the network learns as it converts acoustic
+      input into linguistic representations.
   date: 2026-04-17
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
