@@ -19,12 +19,37 @@
 
 - speaker: Erin Grant
   speakerlink: https://eringrant.github.io/
-  title: TBD
+  title: (postponed) Internal validity of representational comparisons
   affiliation: NYU (Faculty Fellow)
-  abstract: TBD
+  abstract: |
+      Comparing the internal representations of biological and artificial
+      intelligence systems has become a core methodology in neuroscience,
+      psychology, and machine learning. Yet representational comparisons in
+      cognitive computational neuroscience are more often motivated by their
+      potential to advance our understanding of the brain and mind than by
+      theoretical principles of neural computation. Two such principles are that
+      both biological and artificial neural networks adapt through experience to
+      task demands, yet are degenerate, with many distinct configurations
+      capable of implementing the same behavior. We focus on an extreme case of
+      one such degeneracy in artificial neural networks, parameter symmetries,
+      which reshape internal representations while preserving the network’s
+      performance on a task. Using known characterizations of these parameter
+      symmetries, we derive their exact action on representational geometry and
+      demonstrate that they can drive common representational similarity
+      measures up or down arbitrarily. This dissociation of function and
+      representation challenges the central assumption of representational
+      comparisons, that directly comparing neural activation patterns permits
+      inferences about shared computational principles. Nevertheless, we
+      demonstrate that this dissociation resolves when constraints are placed on
+      a network at the level of implementation, and that these constraints have
+      a normative interpretation in terms of efficient coding and noise
+      robustness. Together, these results ground cross-system comparisons in a
+      more precise theory of why neural representational geometry is structured
+      the way it is.
   date: 2026-05-08
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
+  cancelled: true
 
 - speaker: Gasser Elbanna
   speakerlink: https://gasserelbanna.github.io/
