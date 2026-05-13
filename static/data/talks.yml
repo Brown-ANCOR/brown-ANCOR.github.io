@@ -19,7 +19,7 @@
 
 - speaker: Erin Grant
   speakerlink: https://eringrant.github.io/
-  title: (postponed) Internal validity of representational comparisons
+  title: Internal validity of representational comparisons
   affiliation: NYU (Faculty Fellow)
   abstract: |
       Comparing the internal representations of biological and artificial
@@ -46,10 +46,9 @@
       robustness. Together, these results ground cross-system comparisons in a
       more precise theory of why neural representational geometry is structured
       the way it is.
-  date: 2026-05-08
+  date: 2026-05-22
   time: 2pm
   location: Carney Innovation Zone, 164 Angell st, 4th floor
-  cancelled: true
 
 - speaker: Gasser Elbanna
   speakerlink: https://gasserelbanna.github.io/
