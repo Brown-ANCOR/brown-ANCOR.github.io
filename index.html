@@ -224,10 +224,16 @@
           
           
           
-          <!-- <div class="card" style="background-color:lightyellow"> -->
-          <div class="card"
-            style="background-color:lightyellow">
+          
+        </div>
 
+        <!-- Column for past talks -->
+        <div class="column is-7">
+          <h2 class="title is-4">Past Talks</h2>
+          
+
+           <div class="card"
+            style="background-color:blanchedalmond">
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
@@ -241,6 +247,7 @@
                   &nbsp;
                   <p><b>Date:</b> May 22, 2026 (Friday) at 2pm</p>
                   <p><b>Location:</b> Carney Innovation Zone, 164 Angell st, 4th floor</p>
+                  
                   <div class="content">
                     <p><b>Abstract:</b>
                       <a href="javascript:void(0);" onclick="toggleAbstract(this)">
@@ -279,36 +286,28 @@ the way it is.
 
                     <script>
                       function toggleAbstract(link) {
-                        const abstractContent = link.parentElement.nextElementSibling;
+                        const abstractContent = link.parentElement?.nextElementSibling;
                         const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
-                        if (abstractContent.style.display === "none") {
-                          abstractContent.style.display = "block";
-                          icon.classList.remove('fa-chevron-down');
-                          icon.classList.add('fa-chevron-up');
-                        } else {
-                          abstractContent.style.display = "none";
-                          icon.classList.remove('fa-chevron-up');
-                          icon.classList.add('fa-chevron-down');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
                         }
                       }
                     </script>
                   </div>
                 </div>
-
               </div>
             </div>
-          </div>
-          &nbsp;
-          
-          
         </div>
-
-        <!-- Column for past talks -->
-        <div class="column is-7">
-          <h2 class="title is-4">Past Talks</h2>
-          
-
-          
+        &nbsp;
+        
         
 
            <div class="card"
