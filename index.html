@@ -225,12 +225,68 @@
           
           
           
+          
+          <!-- <div class="card" style="background-color:lightyellow"> -->
+          <div class="card"
+            style="background-color:lightyellow">
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">TBD</p>
+                  <p class="is-6">
+                     <b>Herbert Zhou</b>
+                    
+                  </p>
+                  <p class="is-5">Yale (PhD Student)</p>
+                  &nbsp;
+                  <p><b>Date:</b> November 06, 2026 (Friday) at 11am</p>
+                  <p><b>Location:</b> TBD</p>
+                  <div class="content">
+                    <p><b>Abstract:</b>
+                      <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                        <span class="icon">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </a>
+                    </p>
+                    <div class="abstract-content" style="display: none;">
+                      <p>TBD</p>
+                    </div>
+
+                    <script>
+                      function toggleAbstract(link) {
+                        const abstractContent = link.parentElement.nextElementSibling;
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
+                        if (abstractContent.style.display === "none") {
+                          abstractContent.style.display = "block";
+                          icon.classList.remove('fa-chevron-down');
+                          icon.classList.add('fa-chevron-up');
+                        } else {
+                          abstractContent.style.display = "none";
+                          icon.classList.remove('fa-chevron-up');
+                          icon.classList.add('fa-chevron-down');
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          &nbsp;
+          
+          
         </div>
 
         <!-- Column for past talks -->
         <div class="column is-7">
           <h2 class="title is-4">Past Talks</h2>
           
+
+          
+        
 
            <div class="card"
             style="background-color:blanchedalmond">
