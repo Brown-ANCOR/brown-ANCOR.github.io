@@ -226,10 +226,16 @@
           
           
           
-          <!-- <div class="card" style="background-color:lightyellow"> -->
-          <div class="card"
-            style="background-color:lightyellow">
+          
+        </div>
 
+        <!-- Column for past talks -->
+        <div class="column is-7">
+          <h2 class="title is-4">Past Talks</h2>
+          
+
+           <div class="card"
+            style="background-color:blanchedalmond">
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
@@ -242,6 +248,10 @@
                   &nbsp;
                   <p><b>Date:</b> November 06, 2026 (Friday) at 3pm</p>
                   <p><b>Location:</b> Barus House; 340 Brook St.</p>
+                  
+                  <p> <a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8753c587-ca40-4f64-b305-b4fa016ee56f" target="_blank" style="color: inherit; text-decoration: underline;">
+                      <b>Link to recording</b> </a></p>
+                  
                   <div class="content">
                     <p><b>Abstract:</b>
                       <a href="javascript:void(0);" onclick="toggleAbstract(this)">
@@ -285,36 +295,28 @@ learning.
 
                     <script>
                       function toggleAbstract(link) {
-                        const abstractContent = link.parentElement.nextElementSibling;
+                        const abstractContent = link.parentElement?.nextElementSibling;
                         const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
-                        if (abstractContent.style.display === "none") {
-                          abstractContent.style.display = "block";
-                          icon.classList.remove('fa-chevron-down');
-                          icon.classList.add('fa-chevron-up');
-                        } else {
-                          abstractContent.style.display = "none";
-                          icon.classList.remove('fa-chevron-up');
-                          icon.classList.add('fa-chevron-down');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
                         }
                       }
                     </script>
                   </div>
                 </div>
-
               </div>
             </div>
-          </div>
-          &nbsp;
-          
-          
         </div>
-
-        <!-- Column for past talks -->
-        <div class="column is-7">
-          <h2 class="title is-4">Past Talks</h2>
-          
-
-          
+        &nbsp;
+        
         
 
            <div class="card"
